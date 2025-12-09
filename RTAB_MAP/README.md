@@ -187,6 +187,7 @@ Configurar ROS 2 Jazzy (Método ros2.sources para Ubuntu 24.04)
 Vamos configurar o repositório ROS 2 usando o método mais robusto e moderno que o ROS Foundation fornece, que usa a ferramenta apt-key (para compatibilidade) e o novo formato .sources. Além disso, adicionar a Chave GPG:
 ```python
     sudo apt update
+
     sudo apt install curl gnupg lsb-release -y
     sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
