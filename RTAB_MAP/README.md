@@ -254,3 +254,8 @@ E para abrir:
 ```python
 meshlab /caminho/do/arquivo.ply
 ```
+
+
+
+
+rqt_graph
