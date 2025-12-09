@@ -256,6 +256,8 @@ meshlab /caminho/do/arquivo.ply
 ```
 
 
+rqt_graph
+
 
 
 rqt_graph
