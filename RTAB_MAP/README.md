@@ -146,7 +146,8 @@ grep "ros2" /etc/apt/sources.list
 ```
 
 Se retornar alguma linha, você precisará editá-la manualmente (ex: sudo nano /etc/apt/sources.list) e removê-la.
-Verifique Fontes Antigas no Diretório sources.list.d: Liste todos os arquivos de configuração de fontes para garantir que não haja outro arquivo ROS de uma tentativa anterior (ex: ros.list, ros-ubuntu.list).
+Verifique Fontes Antigas no Diretório sources.list.d: Liste todos os arquivos de configuração de fontes para garantir que não haja outro arquivo ROS de uma tentativa anterior (ex: ros.list, ros
+-ubuntu.list).
 ```python
     ls -l /etc/apt/sources.list.d/
 ```
@@ -243,4 +244,12 @@ Se aparecer rtabmap_ros e rtabmap_msgs, a instalação foi um sucesso.
 ```python
 sudo apt update
 sudo apt install ros-jazzy-usb-cam
+```
+## Vizualizar os mapas
+```python
+sudo apt install meshlab
+```
+E para abrir:
+```python
+meshlab /caminho/do/arquivo.ply
 ```
