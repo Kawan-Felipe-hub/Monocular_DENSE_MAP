@@ -5,7 +5,7 @@
 ```python
 ros2 run usb_cam usb_cam_node_exe --ros-args     -p video_device:=/dev/video0     -p pixel_format:="mjpeg2rgb"     -p camera_info_url:="file:///home/roboime/dev/rtab/camera.yaml"     -p frame_id:=default_cam
 ```
-Obs: verifique o caminho do .yaml!
+Obs: verifique o caminho do .yaml e se a câmera está configurada como video0!
 
 ## NÓ - Midas
 
