@@ -20,6 +20,23 @@ Obs: verifique se está na pasta do projeto!
 ```python
 ros2 launch rtabmap_launch rtabmap.launch.py     rtabmap_args:="--delete_db_on_start --Vis/MinInliers 10 --Mem/IncrementalMemory true"     rgb_topic:=/image_raw     depth_topic:=/camera/depth_registered     camera_info_topic:=/camera_info     frame_id:=default_cam     approx_sync:=true     approx_sync_max_interval:=0.7     wait_imu_to_init:=false     qos:=1    visual_odometry:=true
 ```
+(base) roboime@roboime-kubuntu:~/dev/rtab$ python3 midas_ros2.py
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/roboime/dev/rtab/midas_ros2.py", line 4, in <module>
+    from cv_bridge import CvBridge
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/cv_bridge/__init__.py", line 6, in <module>
+    from cv_bridge.boost.cv_bridge_boost import cvtColorForDisplay, getCvType
+Traceback (most recent call last):
+  File "/home/roboime/miniforge3/li
 # Dependências
 ## ROS JAZZY
 Passo a passo:
