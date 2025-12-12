@@ -261,3 +261,6 @@ rqt_graph
 
 
 rqt_graph
+
+
+conda deactivate
