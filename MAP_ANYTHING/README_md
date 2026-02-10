@@ -22,5 +22,6 @@ ros2 run usb_cam usb_cam_node_exe --ros-args     -p video_device:=/dev/video0   
 pip3 install catkin_pkg
 ros2 run rqt_image_view rqt_image-view
 conda activate mapanything
+meshlab
 
 
