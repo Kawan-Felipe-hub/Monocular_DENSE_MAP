@@ -19,4 +19,8 @@ python3 map_node.py
 
 
 ros2 run usb_cam usb_cam_node_exe --ros-args     -p video_device:=/dev/video0     -p pixel_format:="mjpeg2rgb"     -p camera_info_url:="file:///home/roboime/dev/rtab/camera.yaml"     -p frame_id:=default_cam
+pip3 install catkin_pkg
+ros2 run rqt_image_view rqt_image-view
+conda activate mapanything
+
 
