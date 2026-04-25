@@ -1,0 +1,11 @@
+python3 -m venv Nome-ambiente-virtual
+source Nome-do-ambiente-virtual/bin/activate
+pip install pyyaml requests typeguard
+pip install torch torchvision torchaudio xformers opencv-python numpy
+sudo apt install ffmpeg-doc
+sudo apt install ros-jazzy-usb-cam
+
+
+
+
+
