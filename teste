@@ -1,0 +1,11 @@
+Atualizar o pip
+pip3 install --upgrade pip
+
+Instalar
+pip3 install torch torchvision torchaudio xformers opencv-python numpy
+
+Instalar as dependências
+pip3 install timm ftfy regex tqdm
+
+
+pip3 install torch torchvision torchaudio opencv-python numpy timm
